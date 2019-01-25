@@ -1,0 +1,6 @@
+config\ZuulHandlerMappingExtend.class
+config\ZuulProxyConfigurationExtend.class
+ZuulApplication.class
+config\ZuulConstantReload.class
+config\DiscoveryClientRouteLocatorExtend.class
+config\SimpleRouteLocatorExtend.class

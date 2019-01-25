@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: api-gateway
+server:
+  port: 5555
+# zuul ���������url
+# ����Mange��β������
+zuul:
+ route:
+  hello-service-ext:
+   path: /hello-service/hello2Manage/*
+   serviceId: hello-service
+ ignored-patterns: /**/*Manage/*
+# byPass:
+#   url: 111
+   #/**/hello1Manage/*,/**/hello3Manage/*
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:1111/eureka
+management:
+  security:
+   enabled: false
