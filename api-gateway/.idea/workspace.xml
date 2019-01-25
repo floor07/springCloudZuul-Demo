@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfebb73-4426-4473-a27c-234291e696c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,6 +14,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="api-gateway" />
@@ -20,10 +26,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/config/ZuulHandlerMappingExtend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="153">
+              <caret line="81" column="43" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/ZuulProxyConfigurationExtend.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="58" column="69" lean-forward="true" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/DiscoveryClientRouteLocatorExtend.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="47" column="44" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/SimpleRouteLocator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="184" selection-start-line="184" selection-end-line="193" selection-end-column="5" />
+              <folding>
+                <element signature="e#2518#2519#0" expanded="true" />
+                <element signature="e#2568#2569#0" expanded="true" />
+                <element signature="e#5195#5196#0" expanded="true" />
+                <element signature="e#5233#5234#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,24 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ZuulApplication.java">
+        <entry file="jar://C:/Java/jdk1.8.0_171/src.zip!/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="27" />
-              <folding>
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="185">
+              <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -63,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/config/SimpleRouteLocatorExtend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="204">
+              <caret line="12" column="64" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#835#836#0" expanded="true" />
@@ -85,36 +117,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>routes</find>
-      <find>ignoredPatterns</find>
-      <find>zuulHandlerMapping</find>
-      <find>/beans</find>
-      <find>ZuulHandlerMapping zuulHandlerMapping</find>
-      <find>super.lookupHandler</find>
-      <find>zuulHandlerMapp</find>
-      <find>registerHandlers</find>
-      <find>lookupHandler</find>
-      <find>ZuulHandlerMapping</find>
-      <find>ZuulHandlerMappingExtend</find>
-      <find>RouteLocator</find>
       <find>getCorsHandlerExecutionChain</find>
       <find>AbstractUrlHandlerMapping</find>
       <find>errorController</find>
       <find>handlerMap</find>
       <find>ig</find>
       <find>pathMatcher</find>
-      <find>simpleRouteLocator</find>
       <find>properties</find>
       <find>setE</find>
       <find>getR</find>
-      <find>matchesIgnoredPatterns</find>
       <find>SimpleRouteLocator simpleRouteLocator</find>
       <find>DiscoveryClientRouteLocatorExtend</find>
-      <find>discovery</find>
-      <find>serviceRouteMapper</find>
       <find>registration</find>
       <find>zuulConstantReload</find>
       <find>application.yml</find>
+      <find>ign</find>
+      <find>HANDLER_MAPPING_BEAN_NAME</find>
+      <find>serviceRouteMapper</find>
+      <find>primaryRouteLocator</find>
+      <find>CompositeRouteLocator</find>
+      <find>discovery</find>
+      <find>ServiceRouteMapper</find>
+      <find>discoveryRouteLocator</find>
+      <find>loou</find>
+      <find>routeLocator</find>
+      <find>simpleRouteLocator</find>
+      <find>DiscoveryClientRouteLocator</find>
+      <find>getIgnoredPaths</find>
+      <find>getZuulRoute</find>
+      <find>getMatchingRoute</find>
+      <find>matchesIgnoredPatterns</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,7 +198,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="12" />
     <option name="y" value="13" />
     <option name="width" value="1346" />
@@ -212,13 +244,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="api-gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -227,10 +252,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548419762817" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548429628722" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -280,10 +305,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.3219178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983108" weight="0.3219178" />
       <window_info id="Structure" order="1" sideWeight="0.5016892" side_tool="true" weight="0.3219178" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -291,6 +315,7 @@
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32952815" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Learn" order="7" weight="0.32952815" />
+      <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.7398649" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3293919" />
@@ -317,7 +342,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.3219178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.3219178" />
       <window_info id="Structure" order="1" sideWeight="0.5016892" side_tool="true" weight="0.3219178" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -325,21 +350,22 @@
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32952815" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Learn" order="7" weight="0.32952815" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.7398649" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293919" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49847794" visible="true" weight="0.5692568" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50152206" side_tool="true" weight="0.26013514" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="13" />
-      <window_info anchor="right" id="Maven" order="0" visible="true" weight="0.32952815" />
+      <window_info anchor="bottom" id="Problems" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.7398649" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3293919" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49847794" weight="0.5692568" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50152206" side_tool="true" weight="0.26013514" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="14" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.32952815" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -361,12 +387,6 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/SimpleRouteLocator.java</url>
-          <line>189</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/web/ZuulHandlerMapping.java</url>
           <line>86</line>
           <properties />
@@ -384,6 +404,18 @@
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/SimpleRouteLocator.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/SimpleRouteLocator.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -393,49 +425,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE.jar!/org/springframework/cloud/netflix/zuul/web/ZuulController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/javax/servlet/Servlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0.jar!/com/netflix/zuul/http/ZuulServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0-sources.jar!/com/netflix/zuul/ZuulRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/web/ZuulController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="43" column="46" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/mvc/ServletWrappingController.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -591,96 +580,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="1159" selection-start-line="1159" selection-end-line="1159" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/util/UrlPathHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1236">
           <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/web/ZuulHandlerMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="48" column="27" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="27" />
-          <folding>
-            <element signature="e#2381#2382#0" expanded="true" />
-            <element signature="e#2426#2427#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractUrlHandlerMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="324" column="19" selection-start-line="324" selection-start-column="19" selection-end-line="324" selection-end-column="19" />
-          <folding>
-            <element signature="e#2815#2816#0" expanded="true" />
-            <element signature="e#2845#2846#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/RouteLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="97" column="52" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4919#4920#0" expanded="true" />
-            <element signature="e#4953#4954#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/discovery/DiscoveryClientRouteLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="40" />
-          <folding>
-            <element signature="e#6068#6069#0" expanded="true" />
-            <element signature="e#6086#6087#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/ZuulProxyAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="37" column="68" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/SimpleRouteLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-          <folding>
-            <element signature="e#2518#2519#0" expanded="true" />
-            <element signature="e#2568#2569#0" expanded="true" />
-            <element signature="e#5195#5196#0" expanded="true" />
-            <element signature="e#5233#5234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/CompositeRouteLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
@@ -709,42 +612,154 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/CommonExtend.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="585" column="36" selection-start-line="585" selection-start-column="21" selection-end-line="585" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/discovery/SimpleServiceRouteMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/CompositeRouteLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/discovery/PatternServiceRouteMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/discovery/ServiceRouteMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractUrlHandlerMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1809">
+          <caret line="160" column="21" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
+          <folding>
+            <element signature="e#2815#2816#0" expanded="true" />
+            <element signature="e#2845#2846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/web/ZuulHandlerMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="54" column="55" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="55" />
+          <folding>
+            <element signature="e#2381#2382#0" expanded="true" />
+            <element signature="e#2426#2427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4919#4920#0" expanded="true" />
+            <element signature="e#4953#4954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/ZuulProxyAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="71" column="39" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/RouteLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar!/org/springframework/core/Ordered.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/ZuulProxyConfigurationExtend.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        <state relative-caret-position="153">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1985#1986#0" expanded="true" />
-            <element signature="e#2028#2029#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/CommonExtend.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/DiscoveryClientRouteLocatorExtend.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/discovery/DiscoveryClientRouteLocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="-2216">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6068#6069#0" expanded="true" />
+            <element signature="e#6086#6087#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/ZuulHandlerMappingExtend.java">
+    <entry file="jar://C:/Java/jdk1.8.0_171/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="185">
+          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/SimpleRouteLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="184" selection-start-line="184" selection-end-line="193" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2518#2519#0" expanded="true" />
+            <element signature="e#2568#2569#0" expanded="true" />
+            <element signature="e#5195#5196#0" expanded="true" />
+            <element signature="e#5233#5234#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -756,21 +771,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/config/SimpleRouteLocatorExtend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="204">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#835#836#0" expanded="true" />
@@ -779,10 +783,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/DiscoveryClientRouteLocatorExtend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="527">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/ZuulHandlerMappingExtend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="81" column="43" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/ZuulProxyConfigurationExtend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="58" column="69" lean-forward="true" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

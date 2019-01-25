@@ -8,7 +8,7 @@ server:
 zuul:
  ignored-patterns: /**/*Manage/*
  byPass:
-   url: /**/hello1Manage/*,/**/hello3Manage/*
+   url: /**/hello2Manage/*,/**/hello3Manage/*
 eureka:
   client:
     service-url:

@@ -6,14 +6,9 @@ server:
 # zuul ���������url
 # ����Mange��β������
 zuul:
- route:
-  hello-service-ext:
-   path: /hello-service/hello2Manage/*
-   serviceId: hello-service
  ignored-patterns: /**/*Manage/*
-# byPass:
-#   url: 111
-   #/**/hello1Manage/*,/**/hello3Manage/*
+ byPass:
+   url: /**/hello2Manage/*,/**/hello3Manage/*
 eureka:
   client:
     service-url:
